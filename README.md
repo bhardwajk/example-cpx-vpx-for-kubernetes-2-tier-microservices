@@ -3,7 +3,7 @@
 
 Citrix ADC offers the two-tier architecture deployment solution to load balance the enterprise grade applications deployed in microservices and access through internet. Tier 1 has heavy load balancers such as VPX/SDX/MPX to load balance north-south traffic and tier 2 has CPX deployment for managing microservices and load balances the east-west traffic.
 
-![2tierarchitecture](https://user-images.githubusercontent.com/42699135/50677389-97e66480-101f-11e9-9a57-806eaac70004.png)
+![2tierarchitecture](file:///Users/komalbhardwaj/Desktop/Screenshot%202019-02-01%20at%201.48.30%20PM.png)
 
 In the Kubernetes cluster, pod gets deployed across worker nodes. Below screenshot demonstrates the microservice deployment which contains 3 services marked in blue, red and green colour and 12 pods running across two worker nodes. These deployments are logically categorized by Kubenetes namespace (e.g. team-hotdrink namespace)
 
